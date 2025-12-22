@@ -1,9 +1,9 @@
 $(function(){
-	$('#nav').onePageNav();
+  $('#nav').onePageNav();
 });
 
 jQuery(function($) {
     $(document).ready( function() {
-    	$('.navBox').stickUp();
+      $('.navBox').stickUp();
     });
 });
