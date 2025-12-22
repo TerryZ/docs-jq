@@ -24,10 +24,10 @@ $(function(){
     });
 
     //visit count
-	var hm = document.createElement("script");
-	hm.src = "https://hm.baidu.com/hm.js?2c195274cd3511a4924527cd6dd883a2";
-	var s = document.getElementsByTagName("script")[0]; 
-	s.parentNode.insertBefore(hm, s);
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2c195274cd3511a4924527cd6dd883a2";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
 
 
     var menuData = [
@@ -37,13 +37,13 @@ $(function(){
         {content:'<i class="fa fa-fw fa-github"></i> Github',url : 'https://github.com/TerryZ'},
         {content:'sm_divider'},
         {content:'Products',header: true},
-        {content:'<i class="fa fa-fw fa-list-alt"></i> SelectPage',url : 'https://terryz.github.io/selectpage'},
-        {content:'<i class="fa fa-fw fa-bars"></i> SelectMenu',url : 'https://terryz.github.io/selectmenu'},
-        {content:'<i class="fa fa-fw fa-window-restore"></i> bDialog',url : 'https://terryz.github.io/bdialog'},
-        {content:'<i class="fa fa-fw fa-caret-square-o-right"></i> bPage',url : 'https://terryz.github.io/bpage'},
-        {content:'<i class="fa fa-fw fa-folder-o"></i> bTabs',url : 'https://terryz.github.io/btabs'},
+        {content:'<i class="fa fa-fw fa-list-alt"></i> SelectPage',url : 'https://terryz.github.io/docs-jq/select-page'},
+        {content:'<i class="fa fa-fw fa-bars"></i> SelectMenu',url : 'https://terryz.github.io/docs-jq/select-menu'},
+        {content:'<i class="fa fa-fw fa-window-restore"></i> bDialog',url : 'https://terryz.github.io/docs-jq/dialog'},
+        {content:'<i class="fa fa-fw fa-caret-square-o-right"></i> bPage',url : 'https://terryz.github.io/docs-jq/page'},
+        {content:'<i class="fa fa-fw fa-folder-o"></i> bTabs',url : 'https://terryz.github.io/docs-jq/tabs'},
         {content:'sm_divider'},
-        {content:'<i class="fa fa-fw fa-plug"></i> Vuejs plugin series',url : 'https://terryz.github.io/vue'}
+        {content:'<i class="fa fa-fw fa-plug"></i> Vuejs plugin series',url : 'https://terryz.github.io/docs-vue'}
     ];
     $('#lnkMyProjects').click(function(){
         $(this).selectMenu({
