@@ -1,0 +1,38 @@
+body {
+  background-color: #eee;
+}
+.main-container {
+  padding-top: 20px;
+  background-color: white;
+  height: 100vh;
+  width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 5rem;
+}
+.component-item {
+  width: 7rem;
+}
+.component-list {
+  margin-top: 50px;
+}
+.component-list ul{
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.component-list ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.component-list ul li svg {
+  width: 24px;
+  height: 24px;
+  color: #333;
+}
+.component-list ul li a {
+  display: inline-flex;
+}
